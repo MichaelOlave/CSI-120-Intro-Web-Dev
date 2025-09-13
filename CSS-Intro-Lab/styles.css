@@ -1,0 +1,25 @@
+.models {
+    font-size: 16px;
+    cursor: default;
+    margin-bottom: 10px;
+}
+
+.models:hover {
+    font-size: 20px;
+}
+
+#docker {
+    font-size: x-large;
+    color: rgb(0, 0, 99);
+    font-style: italic;
+}
+
+img {
+    border-radius: 50px;
+    width: 400px;
+    height: auto;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
