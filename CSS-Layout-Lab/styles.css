@@ -1,0 +1,28 @@
+.canvas {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+.box {
+    color: blue;
+    margin: 0.5vh;
+    width: 40px;
+    height: 40px;
+    background: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.row1, .row2, .row3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row4 {
+    display: flex;
+    justify-content: center;
+}
+
