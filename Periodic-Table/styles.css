@@ -1,0 +1,47 @@
+.periodic-table {
+    display: flex;
+    flex-direction: row;
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+    width: 75px;
+    border: 1px solid black;
+    box-shadow: 1px 3px;
+    padding: 3px;
+    margin: 10px;
+    background: rgba(131, 131, 28, 0.493);
+}
+
+.atomic-values {
+    display: flex;
+    justify-content: space-between;
+}
+
+.atomic-number {
+    font-size: medium;
+}
+
+.atomic-mass {
+    font-size: smaller;
+}
+
+.elemental-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.element-symbol {
+    font-size: x-large;
+}
+
+.element-name {
+    font-size: larger;
+}
+
+.chemical-group {
+    font-size: smaller;
+}
